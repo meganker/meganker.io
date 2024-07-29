@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Cases by State, U.S Territory, and Region</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center;">Total COVID-19 Cases per State</h1>
+    <p style="text-align: center;">This visualization shows the total number of COVID-19 cases reported by each state in the USA. Use the buttons below to view the data for different years and filter the states by region.</p>
+    <div id="visualization"></div>
+    <div class="dropdown-container">
+        <select id="stateFilter">
+            <option value="all">All States</option>
+            <option value="north">North</option>
+            <option value="south">South</option>
+        </select>
+    </div>
+    <div class="button-container">
+        <button id="back">Home</button>
+        <button id="next">Next</button>
+    </div>
+    <p id="narrative" style="text-align: center;"></p>
+    <div class="tooltip" id="tooltip"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+#visualization {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.bar {
+    fill: purple;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button {
+    margin: 0 5px;
+}
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+}
